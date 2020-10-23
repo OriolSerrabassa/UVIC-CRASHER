@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    user-select: none;
+    -khtml-user-drag: none;
+    -khtml-user-select: none;
+    -moz-user-drag: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-drag: none;
+    -webkit-touch-callout: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+}
+
+@font-face {
+  font-family: 'Minecraftia';
+  src: url('fonts/Minecraftia-Regular.ttf');
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    align-items: center;
+    background-color: black;
+    color: white;
+    cursor: url('cursor/Cursor.cur'), auto;
+    font-family: Minecraftia;
+    justify-content: center;
+    text-align: center;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+aside {
+    width: 20%;
+}
+
+#left {
+    float: left;
+}
+
+div {
+    width: 100%;
+}
+
+#right {
+    float: right;
+}
+
+h3 {
+    font-size: 25px;
+}
+
+h4 {
+    font-size: 20px;
+}
+
+aside img {
+    width: 45%;
+}
+
+#pause {
+    width: 25%;
+}
+
+@media (max-width: 1000px) {
+    header img {
+        width: 80%;
+    }
+
+    h2 {
+        font-size: 25px;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 800px) {
+    h2 {
+        font-size: 20px;
+    }
+
+    h3 {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 600px) {
+    h2 {
+        font-size: 15px;
+    }
+
+    h3 {
+        font-size: 10px;
+    }
+}
